@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Survey</title>
+</head>
+<body>
+<h4> You are hereby presented with unique opportunity to pass a completely useless survey </h4><p>
+<h4> Please fill in the info in the form below and click "Submit" </h4><p>
+<form action="/survey" method="POST">
+    First name: <input type = "text" name = "name" placeholder="Your name" required><br>
+    Last name: <input type = "text" name = "surname" placeholder="Your surname" required><br>
+    E-mail: <input type="email" name="email" placeholder="E-mail address" required><br>
+    Age: <input type="number" name="age" placeholder="Your age" required><br>
+    Gender: <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female" required> Female<br>
+    Do you have driver license? <input type="checkbox" name="driver" value="Yes/No"><br>
+    <input type="submit" value="Submit form">
+</form>
+</body>
+</html>
